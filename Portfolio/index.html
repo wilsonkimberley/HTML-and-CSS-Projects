@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Kimberley Wilson</title>
+        <link rel="stylesheet" type="text/css" href="CSS/portfolio.css">
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="images/video/video.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Kimberley Wilson's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>Either write something worth reading or do something worth writing.</q>
+                    <br> - Benjamin Franklin
+                    <br>
+                    <br> My name is Kimberley. Welcome to my portfolio website. Here, you can learn about my background, skills, and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="images/about.png" alt="Replace with your own image and description">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I'm Kimberley Wilson, a web and software development student from Wexford, Ireland, currently studying for the Advanced Software & Web Developer Diploma at Pitman Training. I’m building a strong foundation in web technologies (HTML, CSS, JavaScript) and backend languages like Python and SQL, with a focus on full-stack development, UX design, and database management.
+                    <br>
+                    <br>With additional experience in creative writing and digital marketing, I bring a unique, user-focused perspective to my projects. I’m passionate about learning and collaborating on innovative, real-world projects. Let's <a href="#Contact">Connect!</a>
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    Welcome to my GitHub! This is where I share the coding projects I've worked on as part of my studies. You’ll find a collection of academic-based work, including coding exercises, small applications, and other projects I've tackled along the way. I’m constantly learning, so expect more exciting projects to be added in the future. Stay tuned for updates, and feel free to explore, contribute, or reach out with any questions! You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/wilsonkimberley" target="_blank">Kimberley Wilson GitHub</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/wilsonkimberley" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="images/contact.png" alt="Contact_Image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="https://formspree.io/f/xvgzrgnn" method="POST">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p class="center">&copy; Kimberley Wilson, 2025</p>
+        </footer>        
+    </body>
+</html>
+
+
