@@ -3,7 +3,7 @@
 This is a display of sample websites that I made using HTML and CSS.
 
 ## Projects
-- [Space Station Site](./Space-Station)
+- [Space Station Site](./Space_Station)
 - [Movie Theatre Site](./Cinema)
 - [Astrology Site](./Astrology)
 - [My Portfolio](./Portfolio)
