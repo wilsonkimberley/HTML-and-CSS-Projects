@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{2E27838D-77AA-4200-97B9-55051C151F90}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FaveSong/Pages/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="FaveSong/Pages/Shared/_Layout.cshtml" Line="15" Column="1" />
+      <File FileName="FaveSong/wwwroot/css/site.css" Line="10" Column="5" />
+      <File FileName="FaveSong/wwwroot/js/site.js" Line="10" Column="1" />
+      <File FileName="FaveSong/Pages/Index.cshtml" Line="27" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FaveSong" expanded="True">
+            <Node name="FaveSong">
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FaveSong PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
